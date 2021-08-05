@@ -1,0 +1,86 @@
+.hero {
+  padding: 5rem 0;
+}
+
+.word-enjoy > .decore {
+  position: absolute;
+  top: 7rem;
+  bottom: 0;
+
+  width: 30rem;
+  height: 1rem;
+  z-index: -1;
+}
+
+.word-enjoy {
+  display: inline-block;
+  position: relative;
+
+  z-index: -1;
+}
+
+.decore-wrapper {
+  width: 30rem;
+  height: 1rem;
+
+  position: absolute;
+  top: 7rem;
+  bottom: 0;
+
+  transform-origin: 100% 0%;
+  background-color: #fff;
+
+  z-index: -1;
+}
+
+.hero__right {
+  display: none;
+}
+
+.hero__right--plane-mini {
+  width: 14rem;
+  height: 10rem;
+}
+
+.hero__left > * ~ * {
+  margin-top: 3rem;
+}
+
+.hero__left-button {
+  display: flex;
+  align-items: center;
+}
+
+.hero__left-button > p {
+  color: #686d77;
+  font-size: 1.7rem;
+}
+
+.hero__left-button > * ~ * {
+  margin-left: 2rem;
+}
+
+.hero__left-button--primary {
+  padding: 2rem 1.5rem;
+  font-size: 1.8rem;
+  border-radius: 0.8rem;
+  margin-right: 2rem;
+
+  background-color: var(--primary-button-color);
+  color: white;
+}
+
+.hero__left-button--secondary {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: var(--third-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__left-button--secondary > img {
+  width: 1.5rem;
+}

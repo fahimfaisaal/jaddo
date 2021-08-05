@@ -6,10 +6,11 @@ nav {
   align-items: center;
 
   padding: 4.5rem 0;
+  position: inherit;
 }
 
 .menu {
-  width: 70%;
+  flex-basis: 65%;
 }
 
 #hamburger {
@@ -79,7 +80,7 @@ nav {
 }
 
 .mobile__menu-list > .menu-list > li ~ li {
-  margin-top: 2.5rem;
+  margin-top: 4rem;
 }
 
 #languageSelector {

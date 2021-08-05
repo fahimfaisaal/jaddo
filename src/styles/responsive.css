@@ -16,12 +16,26 @@
     display: none;
   }
 
+  .hero {
+    padding: 10rem 0;
+  }
+
   .wave {
     display: block;
     position: absolute;
     top: 0;
     right: 0;
 
-    z-index: -1;
+    z-index: -99;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero__left {
+    flex-basis: 50%;
+  }
+
+  .hero__right {
+    display: block;
   }
 }

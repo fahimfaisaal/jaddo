@@ -1,8 +1,11 @@
 /** default styles */
 @import "./styles/default.css";
 
-/** header styles */
+/** navigation styles */
 @import "./styles/sectionStyles/navigation.css";
+
+/** hero styles */
+@import "./styles/sectionStyles/hero.css";
 
 /** responsive */
 @import "./styles/responsive.css";
