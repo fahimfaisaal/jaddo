@@ -99,4 +99,3 @@ const animationsArr = Object.values(animations);
 
 // add all animation to anime
 addToAnime(animationsArr);
-

@@ -15,7 +15,7 @@ utility.$ = element => document.querySelector(element);
  * @param {string} element
  * @returns {array}
  */
-utility.$$ = element => [...element.querySelectorAll(element)];
+utility.$$ = element => [...document.querySelectorAll(element)];
 
 /**
  * merge all animation to the timeline one by one

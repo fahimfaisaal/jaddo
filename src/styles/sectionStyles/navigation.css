@@ -3,6 +3,7 @@
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   padding: 4.5rem 0;
 }
@@ -93,8 +94,20 @@ nav {
   border: 0.3rem solid var(--secondary-color);
   border-radius: 1rem;
   padding: 0.5rem 1rem;
+
+  transition: all 350ms ease;
+}
+
+.sign-up-btn:hover {
+  color: #fff;
+  background: var(--secondary-color);
 }
 
 .desktop__menu {
   display: none;
+}
+
+.desktop__menu > .menu-list {
+  font-size: 1.8rem;
+  justify-content: space-between;
 }
