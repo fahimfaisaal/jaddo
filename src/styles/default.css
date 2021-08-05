@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-size: clamp(50.5%, 2vw, 62.5%);
+}
+
+:root {
+  --primary-color: #fff1da;
+  --secondary-color: #212832;
+}
+
+/* svg {
+  border: 1px solid;
+} */
+
+a {
+  text-decoration: none;
+}
+
+select:active,
+select:focus {
+  border: none;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+main {
+  max-width: 108rem;
+  margin: 0 auto;
+
+  padding: 0 4rem;
+  overflow: hidden;
+}

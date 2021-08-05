@@ -1,0 +1,100 @@
+@import "../../asset/fonts/fonts.css";
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 4.5rem 0;
+}
+
+.menu {
+  width: 70%;
+}
+
+#hamburger {
+  width: 8rem;
+  height: 4rem;
+
+  z-index: 1;
+}
+
+#hamburger > g > line {
+  stroke: #212832;
+  stroke-width: 0.5rem;
+}
+
+#line1 {
+  transform-origin: 50% 50%;
+}
+
+#line2 {
+  transform-origin: left bottom;
+}
+
+.mobile__menu {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: 1rem;
+  position: relative;
+}
+
+.mobile__menu-list {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 1;
+  pointer-events: none;
+}
+
+.mobile__menu-list > .menu-list > li {
+  opacity: 0;
+}
+
+.menu-list-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  clip-path: circle(0);
+  background-color: var(--primary-color);
+  pointer-events: none;
+}
+
+.is-pointer-events {
+  pointer-events: initial;
+}
+
+.menu-list {
+  text-align: center;
+  text-transform: capitalize;
+
+  font-family: Poppins-medium;
+  font-size: 2.8rem;
+}
+
+.mobile__menu-list > .menu-list > li ~ li {
+  margin-top: 2.5rem;
+}
+
+#languageSelector {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  font-size: inherit;
+}
+
+.sign-up-btn {
+  border: 0.3rem solid var(--secondary-color);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.desktop__menu {
+  display: none;
+}
