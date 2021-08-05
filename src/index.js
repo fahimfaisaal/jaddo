@@ -1,2 +1,4 @@
+// relative modules
+import './scripts/hamburgerAnimation';
 import "./styles.css";
-console.log("hello world!");
+

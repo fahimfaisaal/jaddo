@@ -1,4 +1,8 @@
-h1 {
-  color: white;
-  background-color: black;
-}
+/** default styles */
+@import "./styles/default.css";
+
+/** header styles */
+@import "./styles/sectionStyles/navigation.css";
+
+/** responsive */
+@import "./styles/responsive.css";
