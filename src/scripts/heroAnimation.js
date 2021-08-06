@@ -1,10 +1,5 @@
 //* node modules
 import anime from 'animejs/lib/anime.es.js';
-// relative modules
-import utils from './utility';
-
-const { mergeAnimeTimelines, mousePosition, addToAnime, $ } = utils;
-const { timeline, stagger } = anime;
 
 const h1WrapperAnimation = {
     targets: '.decore-wrapper',
@@ -14,4 +9,4 @@ const h1WrapperAnimation = {
     duration: 1500
 }
 
-anime(h1WrapperAnimation)
+anime(h1WrapperAnimation);
