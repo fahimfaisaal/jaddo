@@ -7,5 +7,8 @@
 /** hero styles */
 @import "./styles/sectionStyles/hero.css";
 
+/** category styles*/
+@import "./styles/sectionStyles/category.css";
+
 /** responsive */
 @import "./styles/responsive.css";

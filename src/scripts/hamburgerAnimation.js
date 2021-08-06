@@ -35,8 +35,12 @@ const hamburgerAnimation = (e) => {
             duration: 300,
             offset: !isOpenHamburger ? '-=250' : null,
             complete: () => {
+                // toggle hacks
                 const line3 = $('#line3')
-                line3.style.stroke = isOpenHamburger ? '#DF6951' : '#212832'
+                const body = $('body');
+
+                line3.style.stroke = isOpenHamburger ? '#DF6951' : '#212832';
+                body.style.overflow = isOpenHamburger ? 'hidden' : 'initial';
             }
         },
         clip: {
