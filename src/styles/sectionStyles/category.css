@@ -59,3 +59,16 @@
   z-index: -1;
   transition: transform 350ms ease;
 }
+
+/* svg animation group transform origin */
+#antina {
+  transform-origin: 15% 50%;
+}
+
+#localBottom {
+  transform-origin: 26% 70%;
+}
+
+#setting {
+  transform-origin: 25px 32px;
+}
