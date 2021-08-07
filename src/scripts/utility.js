@@ -1,3 +1,4 @@
+//* node modules
 import anime from 'animejs/lib/anime.es.js';
 
 // module scaffolding
@@ -40,10 +41,15 @@ utility.mergeAnimeTimelines = (timeline, [...animations]) => {
  * @param {array} animations
  */
 utility.addToAnime = ([...animations]) => {
-    console.log(animations)
+    const allAnimations = [];
+
     while (animations.length) {
-        anime(animations.shift());
+        allAnimations.push(
+            anime(animations.shift())
+        );
     }
+
+    return allAnimations;
 }
 
 /**
@@ -61,5 +67,7 @@ utility.mousePosition = (event, axis = 'x') => {
         )
     );
 }
+
+utility.anime = anime;
 
 export default utility;
