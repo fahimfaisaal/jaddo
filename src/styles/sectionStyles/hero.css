@@ -31,6 +31,8 @@
 
 .hero__right {
   display: none;
+
+  margin: 0 auto;
 }
 
 .hero__right--plane-mini {
