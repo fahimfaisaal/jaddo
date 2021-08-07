@@ -62,4 +62,6 @@ utility.mousePosition = (event, axis = 'x') => {
     );
 }
 
+utility.anime = anime;
+
 export default utility;

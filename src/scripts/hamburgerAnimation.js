@@ -1,10 +1,13 @@
-//* node modules
-import anime from 'animejs/lib/anime.es.js';
 // relative modules
 import utils from './utility';
 
-const { mergeAnimeTimelines, mousePosition, addToAnime, $ } = utils;
-const { timeline, stagger } = anime;
+const {
+    mergeAnimeTimelines,
+    mousePosition,
+    addToAnime,
+    $,
+    anime: { timeline, stagger }
+} = utils;
 
 const hamburger = $('#hamburger');
 let isOpenHamburger = false;
