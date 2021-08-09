@@ -1,0 +1,87 @@
+.destination__card {
+  justify-content: space-around;
+  padding-top: 5rem;
+  position: relative;
+}
+
+.destination__card > * {
+  flex-basis: 30%;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  overflow: hidden;
+}
+
+.destination__card > * ~ * {
+  margin-top: 5rem;
+}
+
+.destination__card--italy {
+  background: url("../../asset/sections/3_Destination/Rome.jpg") no-repeat
+    center/cover;
+}
+
+.destination__card--uk {
+  background: url("../../asset/sections/3_Destination/London.jpg") no-repeat
+    center/cover;
+}
+
+.destination__card--europe {
+  background: url("../../asset/sections/3_Destination/Europe.jpg") no-repeat
+    center/cover;
+}
+
+.destination__card--italy,
+.destination__card--europe,
+.destination__card--uk {
+  padding-top: 30rem;
+  border-radius: 2.5rem;
+}
+
+.destination__title {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.destination__card-description {
+  padding: 2.5rem 2rem;
+  width: 100%;
+
+  position: relative;
+  background-color: #fff;
+}
+
+.location {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trip-time {
+  display: flex;
+  align-items: center;
+
+  margin-top: 2rem;
+}
+
+.trip-time > span {
+  font-size: 1.6rem;
+  color: var(--paragraph-color);
+}
+
+.teleicon {
+  width: 16px;
+  height: 16px;
+
+  margin-right: 1.2rem;
+}
+
+.destination_spring {
+  position: absolute;
+  top: 12rem;
+  right: 0;
+
+  z-index: -1;
+}

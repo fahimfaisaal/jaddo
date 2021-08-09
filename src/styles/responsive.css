@@ -32,6 +32,10 @@
     flex-basis: 50%;
   }
 
+  .destination__card > * ~ * {
+    margin-top: 0;
+  }
+
   .wave {
     display: block;
     position: absolute;
@@ -66,5 +70,9 @@
 
   .category__card--rect {
     display: block;
+  }
+
+  .destination__card > * {
+    flex-basis: 25%;
   }
 }
