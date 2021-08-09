@@ -1,6 +1,7 @@
 // relative modules
-import './scripts/categoryAnimation';
-import './scripts/hamburgerAnimation';
-import './scripts/heroAnimation';
+import './scripts/animationViaAnime/category';
+import './scripts/animationViaAnime/destinationSpring';
+import './scripts/animationViaAnime/hamburger';
+import './scripts/animationViaAnime/hero';
 import "./styles.css";
 
