@@ -13,5 +13,8 @@
 /** destination styles */
 @import "./styles/sectionStyles/destination.css";
 
+/** trip styles */
+@import "./styles/sectionStyles/trip.css";
+
 /** responsive */
 @import "./styles/responsive.css";
