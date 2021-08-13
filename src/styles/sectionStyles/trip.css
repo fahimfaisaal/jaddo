@@ -1,0 +1,23 @@
+.trip__left-feature > * {
+  display: flex;
+}
+
+.trip__left > * ~ * {
+  margin-top: 2rem;
+}
+
+.trip__left-feature {
+  margin-top: 5rem;
+}
+
+.trip__left-feature > * img {
+  flex-basis: 20%;
+}
+
+.trip__left-feature > * ~ * {
+  margin-top: 2.5rem;
+}
+
+.trip__left-feature p {
+  margin-top: 1rem;
+}
