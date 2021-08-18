@@ -21,3 +21,17 @@
 .trip__left-feature p {
   margin-top: 1rem;
 }
+
+.trip-right {
+  display: grid;
+  place-items: center;
+}
+
+.trip__right-card-icons,
+.status-footer {
+  display: flex;
+}
+
+.trip__right-card-icons img {
+  padding: 1rem;
+}
