@@ -40,18 +40,6 @@
     flex-basis: 45%;
   }
 
-  .trip__right {
-    display: grid;
-    place-items: center;
-
-    flex-basis: 50%;
-  }
-
-  .trip__right-overlap {
-    top: -20%;
-    left: 10%;
-  }
-
   .wave {
     display: block;
     position: absolute;
