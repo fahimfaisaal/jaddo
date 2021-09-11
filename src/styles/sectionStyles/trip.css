@@ -32,17 +32,17 @@
 
 .trip__right-overlap {
   position: absolute;
-  left: 8%;
+  left: 10%;
   z-index: -1;
 
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .trip__right-card {
-  padding: 1.5rem 2rem;
+  padding: 2rem 2rem;
   background-color: #fff;
 
-  border-radius: 2rem;
+  border-radius: 2.5rem;
   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
     0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
     0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
@@ -51,24 +51,32 @@
     0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
 }
 
-.trip__right-card-image img {
+.trip__right-card--image img {
   border-radius: 2rem;
 }
 
-.trip__right-card-desc > * {
+.trip__right-card--desc > * {
   margin-top: 1rem;
 }
 
-.trip__right-card-title {
+.trip__right-card--title {
   font-size: 1.8rem;
 }
 
-.trip__right-card-icons {
+.trip__right-card--icons {
   display: flex;
 }
 
-.trip__right-card-icons > * ~ * {
+.trip__right-card--icons > * ~ * {
   margin-left: 1.5rem;
+}
+
+.trip__right-card--footer {
+  display: grid;
+  grid-template-columns: 2rem 1fr 2rem;
+  gap: 1.5rem;
+
+  margin-top: 2rem;
 }
 
 .leaf,
