@@ -40,6 +40,10 @@
     flex-basis: 45%;
   }
 
+  .trip__right {
+    margin: 0;
+  }
+
   .wave {
     display: block;
     position: absolute;
