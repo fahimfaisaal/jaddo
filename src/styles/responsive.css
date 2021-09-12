@@ -44,6 +44,10 @@
     margin: 0;
   }
 
+  .testimonial__left {
+    flex-basis: 40%;
+  }
+
   .wave {
     display: block;
     position: absolute;
