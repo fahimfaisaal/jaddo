@@ -16,5 +16,8 @@
 /** trip styles */
 @import "./styles/sectionStyles/trip.css";
 
+/** testimonial styles */
+@import "./styles/sectionStyles/testimonial.css";
+
 /** responsive */
 @import "./styles/responsive.css";
