@@ -24,6 +24,8 @@ body {
   --third-color: #df6951;
   --primary-button-color: #f1a501;
   --paragraph-color: #5e6282;
+
+  --testimonial-active-color: #39425d;
 }
 
 /* svg {
