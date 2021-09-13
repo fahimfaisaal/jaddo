@@ -25,7 +25,7 @@
 
 .category__card {
   justify-content: space-between;
-  padding: 5rem 0;
+  padding-top: 5rem;
 }
 
 .category__card > * {
