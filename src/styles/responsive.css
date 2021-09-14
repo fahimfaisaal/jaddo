@@ -5,7 +5,7 @@
 
   .row {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
   }
 
   .desktop__menu {
@@ -46,6 +46,14 @@
 
   .testimonial__left {
     flex-basis: 40%;
+  }
+
+  .card {
+    left: 30%;
+  }
+
+  .top-card {
+    left: 25%;
   }
 
   .wave {
