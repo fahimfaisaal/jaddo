@@ -1,6 +1,6 @@
 import utils from '../utility';
 
-const { $$, $ } = utils;
+const { $$, $, anime} = utils;
 
 const cardAnimationObj = {
     targets: '.top-card',
@@ -8,6 +8,16 @@ const cardAnimationObj = {
     left: window.innerWidth > 770 ? ['30%', '25%'] : 0,
     easing: 'easeInSine',
     duration: 1000
+}
+
+const animation = {
+    topCardFadeOut: {
+        targets: '.top-card',
+        translateX: -20,
+        opacity: 0,
+        easing: 'easeInSine',
+        duration: 500
+    }
 }
 
 // select testimonial card controllers svg and path
@@ -44,6 +54,7 @@ const cardController = e => {
 
         // switch the active dot
         indicatorController(i);
+        anime(animation.topCardFadeOut);
     }
 
     if (idName === 'previous' && previousCard) {
