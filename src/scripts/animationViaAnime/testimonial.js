@@ -5,7 +5,7 @@ const { $$, $, anime: { timeline } } = utils;
 /**
  * anime js animation object function
  * @param {object} target 
- * @param {function} callback 
+ * @function callback
  * @returns {object}
  */
 const animation = (target, callback) => (
@@ -23,7 +23,7 @@ const animation = (target, callback) => (
                 left: window.innerWidth > 770 ? ['30%', '25%'] : 0,
                 duration: 500,
                 complete: callback
-            },
+            }
         },
         previous: {
             presentCardPopDown: {
@@ -39,7 +39,7 @@ const animation = (target, callback) => (
                 translateX: window.innerWidth > 770 ? '2rem' : '0rem',
                 opacity: 1,
                 duration: 500,
-            },
+            }
         }
     }
 )
@@ -52,9 +52,7 @@ const testimonials = $$('.testimonial__right--card > *');
 const testimonialIndicators = $$('.testimonial__left-slideIndicator > *');
 
 let i = 0;
-let previousCard = null;
-let presentCard = testimonials[i];
-let nextCard = testimonials[i + 1];
+let [previousCard, presentCard, nextCard] = [null, testimonials[i], testimonials[i + 1]];
 
 const indicatorController = index => {
     testimonialIndicators.forEach(indicator => {
