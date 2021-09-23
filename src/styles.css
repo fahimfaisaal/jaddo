@@ -22,5 +22,8 @@
 /** companies styles */
 @import "./styles/sectionStyles/companies.css";
 
+/** companies styles */
+@import "./styles/sectionStyles/subscription.css";
+
 /** responsive */
 @import "./styles/responsive.css";
