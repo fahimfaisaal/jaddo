@@ -7,7 +7,7 @@
   padding: 2.3rem;
 }
 
-.companies > *:hover {
+.company:hover {
   background: #ffffff;
   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
     0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
@@ -18,5 +18,4 @@
   border-radius: 1rem;
 
   filter: grayscale(0%);
-  transition: all 100ms ease;
 }
