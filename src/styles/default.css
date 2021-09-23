@@ -27,6 +27,7 @@ body {
   --paragraph-color: #5e6282;
 
   --testimonial-active-color: #39425d;
+  --subscription-bg: hsla(254, 74%, 91%, 0.302);
 }
 
 a {

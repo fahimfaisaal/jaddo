@@ -1,0 +1,47 @@
+.subscription {
+  background-color: var(--subscription-bg);
+  border-radius: 12rem 2rem 2rem 2rem;
+  position: relative;
+}
+
+.subscription__title {
+  font-size: 3.3rem;
+  text-align: center;
+  padding: 0rem 10rem;
+}
+
+.subscription__send-icon {
+  width: 7rem;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+
+  margin-right: -2rem;
+  margin-top: -2rem;
+}
+
+.subscription__spring {
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  overflow: hidden;
+}
+
+.subscription__spring--left {
+  position: absolute;
+}
+
+.subscription__spring--right {
+  position: absolute;
+  top: 4.5rem;
+  right: 0;
+
+  margin-right: -6rem;
+  transform: rotate(-86deg);
+  opacity: 0.3;
+}
