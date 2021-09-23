@@ -19,5 +19,8 @@
 /** testimonial styles */
 @import "./styles/sectionStyles/testimonial.css";
 
+/** companies styles */
+@import "./styles/sectionStyles/companies.css";
+
 /** responsive */
 @import "./styles/responsive.css";
