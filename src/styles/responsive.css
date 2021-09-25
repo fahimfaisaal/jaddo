@@ -61,8 +61,24 @@
   }
 
   .companies {
-    display: flex;
     margin-top: 0rem;
+  }
+
+  .subscription__title {
+    padding: 0rem 10rem;
+  }
+
+  .subscription__input {
+    flex-direction: row;
+  }
+
+  .subscription__input--button {
+    margin-top: 0rem;
+    margin-left: 3rem;
+  }
+
+  .subscription__spring {
+    display: block;
   }
 
   .wave {

@@ -7,7 +7,74 @@
 .subscription__title {
   font-size: 3.3rem;
   text-align: center;
-  padding: 0rem 10rem;
+  padding: 0rem 5rem;
+}
+
+.subscription__input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5rem;
+}
+
+.subscription__input--box {
+  display: flex;
+  position: relative;
+
+  flex-basis: 35%;
+  width: 70%;
+}
+
+.subscription__input--box > input {
+  padding: 2rem;
+  padding-left: 5rem;
+  border-radius: 1rem;
+  flex-grow: 1;
+}
+
+.subscription__input--box img {
+  position: absolute;
+  top: 32%;
+  left: 5%;
+
+  width: 2rem;
+}
+
+.subscription__input--button {
+  padding: 2rem 2.6rem;
+  background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+  border-radius: 1rem;
+
+  font-size: 1.7rem;
+  color: #ffffff;
+  margin-top: 3rem;
+
+  transition: all 350ms ease;
+  clip-path: polygon(
+    0 0,
+    50% 0,
+    100% 0,
+    100% 50%,
+    100% 100%,
+    50% 100%,
+    0 100%,
+    0 50%
+  );
+}
+
+.subscription__input--button:hover {
+  clip-path: polygon(
+    0 0,
+    50% 15%,
+    100% 0,
+    85% 50%,
+    100% 100%,
+    50% 85%,
+    0 100%,
+    15% 50%
+  );
 }
 
 .subscription__send-icon {
@@ -29,11 +96,16 @@
   top: 0;
   bottom: 0;
 
+  display: none;
   overflow: hidden;
+  pointer-events: none;
 }
 
 .subscription__spring--left {
   position: absolute;
+  bottom: 0;
+
+  opacity: 0.3;
 }
 
 .subscription__spring--right {
@@ -43,5 +115,5 @@
 
   margin-right: -6rem;
   transform: rotate(-86deg);
-  opacity: 0.3;
+  opacity: 0.5;
 }
