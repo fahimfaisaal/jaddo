@@ -26,3 +26,6 @@ const springAnimation = () => {
 }
 
 springAnimation();
+
+// export the colors
+export default colors;

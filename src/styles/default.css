@@ -101,6 +101,14 @@ section {
   padding: 5rem 0;
 }
 
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
 .wave {
   display: none;
 }
