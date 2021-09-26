@@ -22,8 +22,11 @@
 /** companies styles */
 @import "./styles/sectionStyles/companies.css";
 
-/** companies styles */
+/** subscription styles */
 @import "./styles/sectionStyles/subscription.css";
+
+/** footer styles */
+@import "./styles/sectionStyles/footer.css";
 
 /** responsive */
 @import "./styles/responsive.css";
