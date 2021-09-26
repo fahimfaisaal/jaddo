@@ -3,7 +3,12 @@
     font-size: 62.5%;
   }
 
-  .row {
+  .row-wrap {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .row-nowrap {
     display: flex;
     flex-flow: row nowrap;
   }
@@ -119,5 +124,17 @@
 
   .destination__card > * {
     flex-basis: 25%;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    gap: 5rem;
+
+    text-align: left;
+  }
+
+  .footer__social p {
+    text-align: left;
   }
 }

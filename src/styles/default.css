@@ -109,6 +109,10 @@ input:focus {
   outline: none;
 }
 
+footer {
+  padding: 10rem 0rem;
+}
+
 .wave {
   display: none;
 }
