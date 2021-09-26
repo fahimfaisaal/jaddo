@@ -25,7 +25,6 @@ utility.$$ = element => [...document.querySelectorAll(element)];
  * @returns {object}
  */
 utility.mergeAnimeTimelines = (timeline, [...animations]) => {
-    console.log(JSON.stringify(animations, null, 2))
     while (animations.length) {
         const properties = animations.shift();
         const { offset } = properties;
