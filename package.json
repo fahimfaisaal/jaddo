@@ -7,19 +7,34 @@
   "author": "@fahimfaisaal",
   "license": "ISC",
   "scripts": {
-    "clean": "rm -rf ./build",
-    "start": "snowpack dev",
-    "build": "snowpack build"
+    "start": "webpack serve --open",
+    "watch": "webpack --watch",
+    "build-dev": "webpack",
+    "build-prod": "NODE_ENV=production webpack",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "animejs": "^3.2.1"
   },
   "devDependencies": {
-    "@snowpack/plugin-babel": "^2.1.7",
-    "@snowpack/plugin-build-script": "^2.1.0",
-    "autoprefixer": "^10.3.1",
-    "postcss": "^8.3.6",
-    "postcss-cli": "^8.3.1",
-    "snowpack": "^3.8.3"
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-strict-mode": "^7.14.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/register": "^7.15.3",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.3.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.3.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "postcss": "^8.3.8",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.0"
   }
 }
