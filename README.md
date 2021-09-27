@@ -1,7 +1,5 @@
 # jaddo
 
-Empty project.
-
 ## How to run on localhost
 
 First install dependencies:
@@ -18,13 +16,20 @@ npm start
 
 Then go to http://localhost:8080
 
+To create a development build:
+
+```sh
+npm run build-dev
+```
+
 To create a production build:
 
 ```sh
-npm run build
+npm run build-prod
 ```
 
-## Credits
+To clan node node modules
 
-Made with [createapp.dev](https://createapp.dev/)
-
+```sh
+npm run clean
+```
