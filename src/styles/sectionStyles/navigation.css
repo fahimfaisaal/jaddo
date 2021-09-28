@@ -55,6 +55,10 @@ nav {
   opacity: 0;
 }
 
+.menu-list a {
+  color: var(--secondary-color);
+}
+
 .menu-list-bg {
   position: fixed;
   top: 0;

@@ -11,6 +11,7 @@
 html {
   font-size: 48.5%;
   font-size: clamp(48.5%, 1.5vw, 62.5%);
+  scroll-behavior: smooth;
 }
 
 body {

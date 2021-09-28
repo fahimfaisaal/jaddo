@@ -28,7 +28,7 @@ To create a production build:
 npm run build-prod
 ```
 
-To clan node node modules
+To remove the dist directory
 
 ```sh
 npm run clean

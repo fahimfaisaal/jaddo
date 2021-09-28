@@ -6,10 +6,12 @@ const {
     mousePosition,
     addToAnime,
     $,
+    $$,
     anime: { timeline, stagger }
 } = utils;
 
 const hamburger = $('#hamburger');
+const mobileMenuList = $$('.mobile__menu-list ul li a').slice(0, 4);
 let isOpenHamburger = false;
 
 const hamburgerAnimation = (e) => {
@@ -90,6 +92,10 @@ const hamburgerAnimation = (e) => {
 }
 
 hamburger.addEventListener('click', hamburgerAnimation);
+
+mobileMenuList.forEach(li => {
+    li.addEventListener('click', hamburgerAnimation)
+})
 
 const lines = ['#line1', '#line2', '#line3'];
 const animations = {
