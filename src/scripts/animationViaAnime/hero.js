@@ -1,5 +1,6 @@
 //* node modules
-import anime from 'animejs/lib/anime.es.js';
+import util from '../utility';
+const { anime } = util;
 
 const h1WrapperAnimation = {
     targets: '.decore-wrapper',

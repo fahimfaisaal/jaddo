@@ -6,4 +6,3 @@ import './scripts/animationViaAnime/hero';
 import './scripts/animationViaAnime/subscription';
 import './scripts/animationViaAnime/testimonial';
 import "./styles.css";
-
