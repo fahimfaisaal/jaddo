@@ -1,5 +1,7 @@
 # jaddo
 
+Go [live](https://jadooworld.netlify.app/)
+
 ## How to run on localhost
 
 First install dependencies:
