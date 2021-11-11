@@ -1,4 +1,4 @@
-# jaddo
+# jadoo world
 
 Go [live](https://jadooworld.netlify.app/)
 
