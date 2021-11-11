@@ -35,8 +35,27 @@
   border-radius: 3.5rem;
 
   text-align: center;
-  transition: box-shadow 250ms ease;
   position: relative;
+}
+
+.category__card > *::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  opacity: 0;
+  border-radius: 3.5rem;
+
+  box-shadow: 0 10rem 8rem rgba(0, 0, 0, 0.02),
+    0 6.48148rem 4.68519rem rgba(0, 0, 0, 0.0151852),
+    0 3.85185rem 2.54815rem rgba(0, 0, 0, 0.0121481),
+    0 2rem 1.3rem rgba(0, 0, 0, 0.01),
+    0 0.814815rem 0.651852rem rgba(0, 0, 0, 0.00785185),
+    0 0.185185rem 0.314815rem rgba(0, 0, 0, 0.00481481);
 }
 
 .category__card > *:hover .category__card--rect {
